@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOTSTRAP</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<center><h1>BOOTSTRAP</h1></center>
+   <center><h2>Bootstrap es un framework de desarrollo web gratuito y de código abierto.</h2></center>
+    <center><img src="inicio.png" alt="" srcset=""></center>
+    <p>Está diseñado para facilitar el proceso de desarrollo de los sitios web responsivos y orientados a los dispositivos móviles, proporcionando una colección de sintaxis para diseños de plantillas.
+        En otras palabras, Bootstrap ayuda a los desarrolladores a construir sitios web más rápidamente, ya que no tienen que preocuparse por los comandos y funciones básicos. Consta de scripts basados en HTML, CSS y JS para diversas funciones y componentes relacionados con el diseño web.
+
+
+        En este artículo, veremos las ventajas de utilizar Bootstrap y explicaremos los diferentes tipos de archivos que utiliza. Al final, sabrás si Bootstrap puede beneficiar a tu flujo de trabajo.
+    </p>
+    <center><img src="mitad.jpg" alt="" srcset=""></center>
+    <p>Bootstrap es una biblioteca de herramientas de código abierto optimizadas para el diseño de sitios y aplicaciones web. Esta plataforma se basa en lenguaje HTML y CSS, e incluye una amplia gama de elementos de diseño, como formularios, botones y menús que se adaptan a diferentes formatos de navegación.</p>
+    <p>Bootstrap fue originalmente creado por GitHub para solucionar problemas de navegación móvil. Esto significa que su código está optimizado para dispositivos con pantallas reducidas e interfaces de interacción táctil. A partir de ello, Bootstrap escaló a otros formatos, como los de las pantallas de escritorio. Como resultado, al construir con Bootstrap tendrás la certeza de que el sitio cargará de manera correcta y que podrás crear interfaces realmente interactivas. </p>
+    <h2>Instalación de Bootstrap</h2>
+    <p>Para empezar a usar Bootstrap únicamente tienes que relacionar sus scripts y hojas de estilo en la cabecera del código HTML de tu web. Existen dos formas de hacerlo: desde una CDN (Content Delivery Network) o descargando los archivos de la página oficial y añadiéndolos al hosting de tu sitio.</p>
+
+    <h2>Insertar mediante CDN</h2>
+    <p>Si por cualquier motivo no quieres descargar los archivos y subirlos a tu hosting, puede incluirlos desde una CDN.
+
+        Recuerda que también debes incluir la dependencia a jQuery, ya que el javascript está escrito en ese lenguaje.
+        
+        Una de las ventajas de emplear una CDN es que la propia red se preocupa de administrarte los archivos que se encuentren más cerca para reducir los posibles tiempos de carga. Si tienes tu web alojada en dinahosting despreocúpate, pues poseemos unas tasas de transferencia muy rápidas, por lo que esto no será un problema para ti.</p>
+
+        <h2>Descargando los archivos Bootstrap</h2>
+        <p>Si quieres descargar y alojar Bootstrap es tan sencillo como descargar los archivos del repositorio en su página web, y después añadir la ruta donde los tienes alojados en tu HTML. En la web del framework también te indican cómo instalarlos desde consola.</p>
+
+        <h2>Componentes principales</h2>
+        <p>Bootstrap posee estilos para prácticamente todos los componentes que puede necesitar una web: menús, botones, tablas, tipografía… Detallar todos uno a uno sería interminable, por lo que en los siguientes apartados te haré un breve resumen de los que considero más prácticos y comunes. De todas formas si quieres echarle un vistazo a todo lo que proporcionan lo tienen completamente documentado en su web.</p>
+
+        <h2>Grid</h2>
+        <p>El trabajo en cuadrícula es la propiedad más importante que tiene Bootstrap, ya que nos resuelve el problema de visionado de elementos en diferentes resoluciones y dispositivos.
+
+            ¿Qué esto de Grid? Uno de los principales problemas que te encuentras al diseñar una web es el reparto del espacio en las diferentes resoluciones de pantalla. Normalmente, según la resolución de pantalla quieres que el contenido se muestre de una manera u otra.</p>
+        <h2>Tamaños de pantalla en Bootstrap</h2>
+        <img src="pantalla.jpg" alt="" srcset="">
+        <p>Lo que acabo de explicar suena muy bien…pero ¿cómo sabe Bootstrap si me encuentro en el móvil o en la pantalla de mi ordenador? El sistema de cuadrícula Bootstrap se divide en seis tamaños, con sus respectivos prefijos. Estos viene delimitados por el tamaño en píxeles de la pantalla:</p>
+        <p>.col-xs– : dispositivos extra pequeños – ancho de pantalla inferior a 576 px</p>
+        <p>.col-sm- :dispositivos pequeños – ancho de pantalla igual o superior a 576 px</p>
+        <p>.col-md- : dispositivos medianos – ancho de pantalla igual o mayor que 768 px</p>
+        <p>.col-lg- : dispositivos grandes – ancho de pantalla igual o mayor que 992 px</p>
+        <p>.col-xl- : dispositivos grandes – ancho de pantalla igual o mayor que 1200 px</p>
+        <p>.col-xxl- : dispositivos grandes – ancho de pantalla igual o mayor que 1400 px</p>
+        
+        <h2>Navegación</h2>
+        <img src="navegacion.jpg" alt="" srcset="">
+        <p>Otro de los principales problemas que nos encontramos al diseñar una web es el menú. Un menú o barra de navegación es un encabezado que se coloca en la parte superior de la página. Además del problema del funcionamiento en dispositivos móviles (necesario que se compacte en un botón, para desplegar en móviles) existen muchas casuísticas interesantes que proporciona el propio Bootstrap en su código, como que se fije a la parte superior de la pantalla al hacer scroll.</p>
+
+        <h2>Botones</h2>
+        <img src="botones.jpg" alt="" srcset="">
+        <p>Los botones son uno de los elementos más importantes de tu web. Anteriormente, ya te hemos hablado de su importancia y dado trucos para que los botones sean lo más usables posible.
+
+            Bootstrap ayuda enormemente a la implementación de estos consejos, ya que por defecto te proporciona clases para realizar diferentes botones según su cometidos y estado:
+            
+            Botones semánticos: botones con significado por sí mismo en su color. Rojo significa alerta, amarillo cuidado, etc.
+            Botones contorneados: perfectos para acciones secundarias.
+            Botones con estado: activado, desactivado, etc.
+            Botones con tamaño: grandes, pequeños, de bloque, etc.
+            Todas estas clases además son aditivas, por lo que puedes ir añadiendo estados hasta conseguir el botón final que puedas necesitar. </p>
+
+            <h2>Colores</h2>
+            <img src="coolores.png" alt="" srcset="">
+            <p>Bootstrap no se fija solamente en el funcionamiento en responsive, sino que mejora toda la UX a tu página. Un ejemplo de ello es que también contiene clases para añadir colores que proporcionan “significado a través de los colores”. Estas clases se pueden añadir tanto a texto, como a botones, como a mensajes de alerta.
+                Para otros componentes o elementos únicamente tienes que cambiar el prefijo text por el del componente nuevo. Por ejemplo: .btn
+            </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-ZInT4p9hH8?si=FCDr3L4E54-aVTOL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+</body>
+</html>
